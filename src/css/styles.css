@@ -4,16 +4,69 @@
 /* These are marked with an underscore: */
 @import url("./_variables.css");
 /* Feel free to add as many of these imports as you need */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+header{
+  background-color: #1B203D;
+  padding: 10px;
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+
+.aboutus-p{
+  font-family: poppins;
+  font-size: 22px;
+  width: 500px;
+  line-height: 35px;
+  display: inline-block;
+  margin-left: 50px;
+
+}
+
+.about-us{
+  font-family: poppins,;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+
+.legal-p{
+  font-family: poppins,;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 50px;
+}
+
+.legal-page{
+  font-family: poppins;
+  font-size: 22px;
+  width: 500px;
+  line-height: 35px;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+
+.header{
+  background-color: #1B203D
+  
+}
+
+.header li{
+  list-style: none;
+  display: inline-block;
+  padding: 50px;
+  
+
+}
+
+.nav-links{
+  font-family: Poppins, Sans-serif;
+  color: white;
+text-decoration: none;
+
+}
+ul{
+  list-style: none;
+  
+  
 }
