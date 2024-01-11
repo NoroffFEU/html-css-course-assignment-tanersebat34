@@ -8,7 +8,21 @@
 
 header{
   background-color: #1B203D;
+  display: center;
+  color: white;
+  margin: auto;
+  padding-top: 
+  text-decoration: none;
+  font size: 1.3em;
   
+}
+
+.header-ul{
+  display: center;
+  color: white;
+  margin-top: 20px;
+  text-decoration: none;
+  font size: 1.3em;
 }
 
 
@@ -19,6 +33,12 @@ header{
   line-height: 35px;
   display: inline-block;
   margin-left: 50px;
+
+}
+.nav-links{
+  font-family: Poppins, Sans-serif;
+  color: white;
+text-decoration: none;
 
 }
 
@@ -50,20 +70,18 @@ header{
   
 }
 
-.header li{
+/*.header li{
   list-style: none;
   display: inline-block;
   padding: 30px;
   
+  
 
-}
+}*/
 
-.nav-links{
-  font-family: Poppins, Sans-serif;
-  color: white;
-text-decoration: none;
 
-}
+
+
 ul{
   list-style: none;
   
@@ -134,7 +152,7 @@ img:hover{
 .footer ul{
   display: center;
   color: white;
-  margin: 40px;
+  margin: 10px;
   text-decoration: none;
   font size: 1.3em;
 }
