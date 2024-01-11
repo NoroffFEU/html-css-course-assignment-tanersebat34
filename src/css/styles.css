@@ -8,7 +8,7 @@
 
 header{
   background-color: #1B203D;
-  padding: 10px;
+  
 }
 
 
@@ -53,7 +53,7 @@ header{
 .header li{
   list-style: none;
   display: inline-block;
-  padding: 50px;
+  padding: 30px;
   
 
 }
@@ -111,6 +111,11 @@ img:hover{
   transform: scale(2,2);
   transition: .3s transform;
 
+}
+
+.logo-i{
+  width: 200px;
+  height: 150px;
 }
 
 .footer {
