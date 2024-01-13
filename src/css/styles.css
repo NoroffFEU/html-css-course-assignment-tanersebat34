@@ -1,3 +1,4 @@
+
 /* Use import to split up your CSS into manageable chunks */
 @import url("./_reset.css");
 /* Files that are only needed to be imported are called partials */
@@ -11,7 +12,7 @@ header{
   display: center;
   color: white;
   margin: auto;
-  padding-top: 
+  padding-top: 5px;
   text-decoration: none;
   font size: 1.3em;
   
@@ -31,7 +32,7 @@ header{
   font-size: 22px;
   width: 500px;
   line-height: 35px;
-  display: inline-block;
+  display: inline-flex;
   margin-left: 50px;
 
 }
@@ -65,21 +66,14 @@ text-decoration: none;
   margin-left: 50px;
 }
 
-.header{
-  background-color: #1B203D
-  
-}
 
-/*.header li{
+
+.header li{
   list-style: none;
   display: inline-block;
   padding: 30px;
-  
-  
 
-}*/
-
-
+}
 
 
 ul{
@@ -125,37 +119,29 @@ img{
 
 }
 
-img:hover{
+.controller-image{
+  width: 271px;
+  height: 122;
+  position: absolute;
+  right: 1450px;
+  
+  
+  
+
+}
+
+/*img:hover{
   transform: scale(2,2);
   transition: .3s transform;
 
-}
+}*/
 
 .logo-i{
   width: 200px;
   height: 150px;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #1B203D;
-  color: white;
-  text-align: center;
-  padding-bottom: 10px;
-  text-align: center;
-  
-}
 
-.footer ul{
-  display: center;
-  color: white;
-  margin: 10px;
-  text-decoration: none;
-  font size: 1.3em;
-}
 
 body{
   margin: 0;
@@ -174,4 +160,24 @@ ul li{
 
 i{
   margin-right: 10px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1B203D;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  
+}
+
+.footer ul{
+  display: center;
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font size: 1.3em;
 }
