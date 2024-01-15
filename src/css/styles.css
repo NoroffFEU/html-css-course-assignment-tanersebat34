@@ -18,6 +18,13 @@ header{
   
 }
 
+.universe-of-games{
+  color: white;
+  text-align: left;
+  text-indent: 50px;
+  position: fixed; top: 175px;
+}
+
 .header-ul{
   display: center;
   color: white;
@@ -25,6 +32,8 @@ header{
   text-decoration: none;
   font size: 1.3em;
 }
+
+
 
 
 .aboutus-p{
