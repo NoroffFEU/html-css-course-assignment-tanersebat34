@@ -18,11 +18,13 @@ header{
   
 }
 
+
 .universe-of-games{
   color: white;
   text-align: left;
-  text-indent: 50px;
-  position: fixed; top: 175px;
+  text-indent: 45px;
+  position: fixed; top: 185px;
+  
 }
 
 .header-ul{
@@ -111,7 +113,13 @@ ul{
 main{
   margin-left: 100px;
 }
-
+.logo{
+  display: inline-block;
+  float: left;
+  position: sticky;
+  width: 250px;
+  height: 200px;
+}
 .box{
   display: inline-block;
   float: left;
