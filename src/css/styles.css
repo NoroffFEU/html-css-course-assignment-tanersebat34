@@ -18,12 +18,12 @@ header{
   
 }
 
-
 .universe-of-games{
   color: white;
   text-align: left;
   text-indent: 45px;
-  position: fixed; top: 185px;
+  position: fixed; top: 200px;
+  font-size: bold;
   
 }
 
@@ -156,6 +156,7 @@ img{
 .logo-i{
   width: 200px;
   height: 150px;
+  
 }
 
 
@@ -171,6 +172,7 @@ ul li{
   display: inline-block;
   font-size: 18px;
   padding: 12px;
+  
 }
 
 
@@ -197,4 +199,26 @@ i{
   margin: 10px;
   text-decoration: none;
   font size: 1.3em;
+}
+
+.CHECKOUT-P {
+  background-color: rgba(250, 159, 53, 1);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 274px;
+  border-radius: 18px;
+  font-size: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  
+}
+.CHECKOUT-P:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.40)
+}
+
+.cart-p{
+  font-family: poppins;
+  font-size: bold;
 }
