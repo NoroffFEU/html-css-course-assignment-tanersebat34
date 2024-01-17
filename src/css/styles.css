@@ -1,186 +1,169 @@
-
 /* Use import to split up your CSS into manageable chunks */
 @import url("./_reset.css");
 /* Files that are only needed to be imported are called partials */
 /* These are marked with an underscore: */
 @import url("./_variables.css");
 /* Feel free to add as many of these imports as you need */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-
-header{
-  background-color: #1B203D;
-  display: center;
-  color: white;
-  margin: auto;
-  padding-top: 5px;
-  text-decoration: none;
-  font size: 1.3em;
-  
+ 
+header {
+    background-color: #1B203D;
+    color: white;
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 1.3em;
+    border: 1px solid red;
+    height: 10em;
+    align-items: center;
 }
-
-.universe-of-games{
-  color: white;
-  text-align: left;
-  text-indent: 45px;
-  position: fixed; top: 200px;
-  font-size: bold;
-  
-}
-
-.header-ul{
-  display: center;
-  color: white;
-  margin-top: 20px;
-  text-decoration: none;
-  font size: 1.3em;
+ 
+h1, h2 {
+    margin: 20px;
+    font-size: 30px;
+    margin-left: 280px;
 }
 
 
+.logo-box {
+    width: 50%;
+    float: left;
+}
+ 
+.nav-links {
+    font size: 1.3em;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+ 
+section {
+    margin: 0 auto;
+    max-width: 1360px;
+}
+ 
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+ 
+.box img {
+    width: 15%;
+    border-radius: 8px;
+}
+ 
+.box img:hover {
+    transform: scale(1.3, 1.3);
+    transition: .3s transform;
+}
+ 
+ 
+/* About us */
+.aboutus-p {
+    font-size: 22px;
+    width: 500px;
+    line-height: 35px;
+    display: inline-flex;
+    margin-left: 50px;
+ 
+}
+ 
+.about-us {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 325px;
+}
+ 
+.legal-p {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 315px;
+}
+ 
+.legal-page {
+    font-size: 22px;
+    width: 500px;
+    line-height: 35px;
+    display: inline-block;
+    margin-left: 50px;
+}
+ 
+.gamelist-p {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 280px;
+}
 
+/* Contact */
+ 
+.contact-p {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 315px;
+ 
+}
+ 
+.contact-page {
+    font-size: 22px;
+    width: 500px;
+    line-height: 35px;
+    display: inline-block;
+    margin-left: 50px;
+}
+ 
+.support-p {
+  font-size: 30px;
+  font-weight: bolder;
+  margin-left: 315px;
 
-.aboutus-p{
-  font-family: poppins;
+}
+
+.support-page {
   font-size: 22px;
   width: 500px;
   line-height: 35px;
-  display: inline-flex;
-  margin-left: 50px;
-
-}
-.nav-links{
-  font-family: Poppins, Sans-serif;
-  color: white;
-text-decoration: none;
-
-}
-
-.about-us{
-  font-family: poppins,;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-left: 50px;
-}
-
-.legal-p{
-  font-family: poppins,;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-left: 50px;
-}
-
-.legal-page{
-  font-family: poppins;
-  font-size: 22px;
-  width: 500px;
-  line-height: 35px;
   display: inline-block;
   margin-left: 50px;
 }
 
 
-
-.header li{
-  list-style: none;
-  display: inline-block;
-  padding: 30px;
-
+.logo-i {
+    width: 200px;
+    height: 150px;
+ 
 }
-
-
-ul{
-  list-style: none;
-  
-  
+ 
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 12px;
+ 
 }
-
-.contact-p{
-  ont-family: poppins,;
-  font-size: 30px;
-  font-weight: bolder;
-  margin-left: 50px;
-
+ 
+i {
+    margin-right: 10px;
 }
-
-.contact-page{
-  font-family: poppins;
-  font-size: 22px;
-  width: 500px;
-  line-height: 35px;
-  display: inline-block;
-  margin-left: 50px;
+ 
+.CHECKOUT-P {
+    background-color: rgba(250, 159, 53, 1);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 274px;
+    border-radius: 18px;
+    font-size: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+ 
 }
-
-main{
-  margin-left: 100px;
+ 
+.CHECKOUT-P:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.40)
 }
-.logo{
-  display: inline-block;
-  float: left;
-  position: sticky;
-  width: 250px;
-  height: 200px;
-}
-./*box{
-  display: inline-block;
-  float: left;
-  width: 13%;
-  padding: 15px;
-  padding-left: 20px;
-  
-
-}
-
-img{
-  width: 100%;
-  border-radius: 8px;
-
-}*/
-
-.gamephotos{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 960px;
-  margin: 20px;
-}
-
-.gamephotos img{
-  width: 200px;
-  border-radius: 8px;
-  margin: 10px;
-}
-/*img:hover{
-  transform: scale(2,2);
-  transition: .3s transform;
-
-}*/
-
-.logo-i{
-  width: 200px;
-  height: 150px;
-  
-}
-
-
-
-body{
-  margin: 0;
-  padding: 0;
-  font-family: poppins;
-}
-
-ul li{
-  list-style-type: none;
-  display: inline-block;
-  font-size: 18px;
-  padding: 12px;
-  
-}
-
-
-
-i{
-  margin-right: 10px;
+ 
+.cart-p {
+    font-size: bold;
 }
 
 .footer {
@@ -203,24 +186,3 @@ i{
   font size: 1.3em;
 }
 
-.CHECKOUT-P {
-  background-color: rgba(250, 159, 53, 1);
-  color: white;
-  border: none;
-  height: 36px;
-  width: 274px;
-  border-radius: 18px;
-  font-size: bold;
-  font-size: 15px;
-  cursor: pointer;
-  transition: box-shadow 0.15s;
-  
-}
-.CHECKOUT-P:hover{
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.40)
-}
-
-.cart-p{
-  font-family: poppins;
-  font-size: bold;
-}
