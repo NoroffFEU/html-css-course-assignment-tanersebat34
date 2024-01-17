@@ -194,3 +194,12 @@ font-size: 15px;
   
   
 }
+
+.contactsale{
+  background-color: rgba(27, 32, 61, 1);
+  color: white;
+  font-family: poppins;
+margin-left: 70px;
+padding-inline: 70px;
+font-size: 20px;
+}
