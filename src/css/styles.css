@@ -28,6 +28,7 @@ h1, h2 {
 }
  
 .nav-links {
+  
     font size: 1.3em;
     color: white;
     text-decoration: none;
@@ -75,7 +76,7 @@ section {
 .legal-p {
     font-size: 30px;
     font-weight: bolder;
-    margin-left: 315px;
+    margin-left: 235PX;
 }
  
 .legal-page {
@@ -97,7 +98,7 @@ section {
 .contact-p {
     font-size: 30px;
     font-weight: bolder;
-    margin-left: 315px;
+    margin-left: 235px;
  
 }
  
@@ -112,7 +113,7 @@ section {
 .support-p {
   font-size: 30px;
   font-weight: bolder;
-  margin-left: 315px;
+  margin-left: 235PX;
 
 }
 
@@ -185,5 +186,3 @@ i {
   font size: 1.3em;
 }
 
-/*mobile to smal tablet*/
-@media screen and (min-width: 300px) and (max-width: 600px)
