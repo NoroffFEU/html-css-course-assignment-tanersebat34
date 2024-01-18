@@ -16,12 +16,14 @@ header {
     align-items: center;
 }
 
-img{
-  max-width: 100%;
-  height: auto;
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  .backgroundphoto{
+    background-image: url("../../assets/—Pngtree—handheld\ video\ game\ controller\ clip_11079953\ 1.png");
+    }
 }
-
-
  
 h1, h2 {
     margin: 20px;
@@ -202,68 +204,3 @@ padding-inline: 70px;
 font-size: 20px;
 }
 
-/*.label {
-  background-color: rgba(250, 159, 53, 1);
-  border-radius: 8px;
-  color: rgba(27, 32, 61, 1);
-  font-family: poppins;
-  font-size: 30px;
-  padding: 8px;
-  
-}*/
-
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'poppins', sans-serif;
-
-}
-
-.main-wrap{
-  width: 50%
-  height: 50vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-
-}
-
-.product{
-  width: 90%;
-  max-width: 750px;
-  display: flex;
-  
-}
-
-.main-wrap .product .image-gallery{
-  flex-basis: 43%;
-  background: #011627;
-  box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.1);
-  transform: scale(1.5);
-  position: relative;
-}
-.main-wrap .product .image-gallery img{
-  width: 100%;
-  padding-top: 150px;
-}
-.main-wrap .product .image-gallery .controls{
-  position: absolute;
-  bottom: 40px;
-  right: 20px;
-  
-}
-
-main-wrap .product .image-gallery .controls .btn{
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
-}
-.main-wrap .product .product-details{
-flex-basis: 53%;
-background: #fff;
-box-shadow: -10px 5px 10px rgba(0, 0, 0, 0.1);;
-}
