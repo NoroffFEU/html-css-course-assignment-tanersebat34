@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 /* Use import to split up your CSS into manageable chunks */
 @import url("./_reset.css");
 /* Files that are only needed to be imported are called partials */
@@ -16,14 +18,7 @@ header {
     align-items: center;
 }
 
-body {
-  box-sizing: border-box;
-  min-height: 100vh;
-  margin: 0;
-  .backgroundphoto{
-    background-image: url("../../assets/—Pngtree—handheld\ video\ game\ controller\ clip_11079953\ 1.png");
-    }
-}
+
  
 h1, h2 {
     margin: 20px;
