@@ -1,104 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
- 
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game Hub | The universe of games</title>
     <meta name="description" content="Gamehub The universe of games" />
     <link rel="stylesheet" href="src/css/styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
- 
-<header>
-    <nav>
-        <ul>
-            <a href="index.html">
-                <div class="logo-box">
-                  <img class="logo" src="assets/images/gamehublogo.png" alt="gamehub logo cover"/>
- 
-                </div>
-            </a>
- 
-            <li>
-                <a class="nav-links" href="/index.html"><i class="fa-solid fa-house"></i>HOME</a>
-            </li>
-            <li>
-              <a class="nav-links" href="about.html"><i class="fa-solid fa-circle-info"></i>ABOUT US</a>
-            </li>
-           
-            <li>
-                <a class="nav-links" href="contac.html"><i class="fa-regular fa-envelope-open"></i>CONTACT</a>
-            </li>
-            <input class="nav-links" type="text" placeholder="Search..." id="search" />
-           
-        </ul>
-    </nav>
-</header>
- 
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-box">
+        <a href="index.html">
+          <img
+            class="logo-box"
+            src="assets/images/gamehublogo.png"
+            alt="gamehub logo cover"
+          />
+        </a>
+        <nav class="nav-box">
+          <a class="nav-links hide" href="/index.html"
+            ><i class="fa-solid fa-house"></i>HOME</a
+          >
+          <a class="nav-links hide" href="about.html"
+            ><i class="fa-solid fa-circle-info"></i>ABOUT US</a
+          >
+          <a class="nav-links hide" href="contac.html"
+            ><i class="fa-regular fa-envelope-open"></i>CONTACT</a
+          >
+          <label for="search" hidden
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
+          <input
+            id="search"
+            name="search"
+            type="text"
+            placeholder="search..."
+          />
+          <i id="burger" class="fa-solid fa-burger"></i>
+        </nav>
+      </div>
+    </header>
+
     <main>
-      <h1 class="contact-p">CONTACT</h1>
-        
- 
-        <section>
-         <div>
+      <section class="container-rowbox">
+        <article class="boxsize-medium">
+          <h1>CONTACT</h1>
+          <p>
+            Have questions, concerns, or need assistance? We're here to help!
+            Reach out to our friendly and knowledgeable support team for all
+            your gaming needs.
+          </p>
+          <p>EMAIL: TANERSEBAT@MAIL.COM</p>
+          <p>TEL: 40841023</p>
+          <p>
+            Customer Support Hours: 7/24 Whether you have inquiries about game
+            purchases, technical issues, or general inquiries, we're just a
+            message or call away. Your satisfaction is our priority, and we're
+            dedicated to providing you with exceptional support.
+          </p>
+        </article>
 
-          <p class="contact-page"> Have questions, concerns, or need assistance? We're here to help! Reach out to our friendly and 
-            knowledgeable support team for all your gaming needs.
-
-            TANERSEBAT@MAIL.COM
-            <br>
-            TEL: 40841023
-            <br>
-            Customer Support Hours: 7/24
-     
-            Whether you have inquiries about game purchases, technical issues, or 
-            general inquiries, we're just a message or call away. Your satisfaction is our priority,
-            and we're dedicated to providing you with exceptional support.</p>
-
-            <section class="form-p">
-              <table>
-            <form class="form-p" name="contact" method="get">
-              NAME: <input type="TEXT" name="name" id="name" 
-            </form>
-            <form>
-              LASTNAME: <input type="TEXT" name="LASTNAME" id="lastname">
-            </form>
-            <br>
-            <br>
-            EMAIL:
-            <input type="email" name="email"  id="email" size="55">
-            <br>
-            <br>
-            MESSAGE: 
-            <br>
-            <textarea name="message" rows="10" cols="61" ></textarea>
-            <br>  
-            <br>
-            <input class="contactsale" type="submit" value="CONTACT   SALE" >
-            
-              </table>
-            </section>
-         </div>
+        <section class="form-p">
+          <h2>Webform</h2>
+          <form class="contact-form">
+            <label for="fname">First name:</label>
+            <input class="input-size" name="name" id="name" type="text" />
+            <label for="lname">Last name:</label>
+            <input class="input-size" name="lname" id="lname" type="text" />
+            <label for="email">E-mail:</label>
+            <input
+              class="input-size"
+              id="email"
+              name="email"
+              placeholder="Your e-mail..."
+              type="text"
+            />
+            <label for="message">Message:</label>
+            <textarea
+              class="input-size textarea-size"
+              id="message"
+              name="message"
+              placeholder="Your message..."
+              type="text"
+            ></textarea>
+            <input
+              class="submit-butt"
+              type="submit"
+              onclick="alert('Your message has been received')"
+              value="SUBMIT"
+            />
+          </form>
         </section>
-
+      </section>
     </main>
- 
+
     <footer>
-        <div class="footer">
-            <nav>
-                <ul>
-                    <li><a class="nav-links" href="legal.html"> LEGAL</a></li>
-                    <li><a class="nav-links" href="about.html"> ABOUT US</a></li>
-                    <li><a class="nav-links" href="contac.html"> CONTACT</a></li>
-                    <li><a class="nav-links" href="SUPPORT.HTML"> SUPPORT</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="footer">
+        <nav>
+          <ul>
+            
+            <li><a class="nav-links" href="./about.html"> ABOUT US</a></li>
+            <li><a class="nav-links" href="./contac.html"> CONTACT</a></li>
+          
+          </ul>
+        </nav>
+      </div>
     </footer>
-</body>
- 
+  </body>
 </html>
