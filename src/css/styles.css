@@ -50,6 +50,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    margin: auto;
 }
  
 .box img {
@@ -64,19 +65,26 @@ section {
  
  
 /* About us */
-.aboutus-p {
-    font-size: 22px;
-    width: 500px;
-    line-height: 35px;
-    display: inline-flex;
-    margin-left: 50px;
- 
-}
- 
+
+.aboutus-p{
+  line-height: 35px;
+  font-size: 22px;
+  background-color: rgba(221, 221, 221, 1);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 70%;
+  margin: 0 auto;
+
+} 
+
 .about-us {
+  letter-spacing: 5px;
     font-size: 30px;
     font-weight: bolder;
-    margin-left: 235px;
+    background-color: rgba(221, 221, 221, 1);
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
 }
  
 .legal-p {
