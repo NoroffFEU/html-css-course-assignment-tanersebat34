@@ -110,13 +110,13 @@ i {
 /* ______________________ INDEX ______________________ */
 
 .container-columnbox {
-    line-height: 35px;
-  font-size: 22px;
-  background-color: rgba(221, 221, 221, 1);
-  padding: 20px;
-  border-radius: 8px;
-  max-width: 70%;
-  margin: 0 auto;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 2rem;
 
 }
 
