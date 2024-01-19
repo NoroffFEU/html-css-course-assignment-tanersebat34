@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 /* Use import to split up your CSS into manageable chunks */
 @import url("./_reset.css");
 /* Files that are only needed to be imported are called partials */
@@ -12,12 +15,14 @@ body {
     margin: 0;
 
     >main {
-        min-height: 90vh;
-        margin-bottom: 8rem;
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0;
+        font-family: poppins, sans-serif;
         background-image: url("../../assets/controller.png");
         background-repeat: no-repeat;
         background-size: fill;
-        background-position: 0% 100%;
+        background-position: 0% 35%;
         padding-top: 4rem;
     }
 }
@@ -105,13 +110,13 @@ i {
 /* ______________________ INDEX ______________________ */
 
 .container-columnbox {
-    width: 85%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    margin: 0 auto;
-    gap: 2rem;
+    line-height: 35px;
+  font-size: 22px;
+  background-color: rgba(221, 221, 221, 1);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 70%;
+  margin: 0 auto;
 
 }
 
@@ -245,6 +250,7 @@ i {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 2em;
+    font-family: poppins, sans-serif;
 
 }
 
@@ -267,6 +273,8 @@ i {
 .titled-price h1 {
     font-size: clamp(1.25rem, 2vw + 0.2rem, 2rem);
     margin: 0;
+    font-family: poppins, sans-serif;
+    font-weight: bolder;
 
 }
 
