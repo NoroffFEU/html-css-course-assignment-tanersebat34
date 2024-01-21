@@ -180,6 +180,27 @@ i {
     transition: .3s transform;
 }
 
+/* ______________________ ABOUT ______________________ */
+
+.about-p{
+   line-height: 35px;
+   font-size: 22px;
+   background-color: rgba(221, 221, 221, 1);
+   padding: 20px;
+   border-radius: 8px;
+}
+
+.headline-p{
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgba(221, 221, 221, 1);
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+
+}
+
 
 /* ______________________ CONTACT ______________________ */
 
