@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
 /* Use import to split up your CSS into manageable chunks */
 @import url("./_reset.css");
 /* Files that are only needed to be imported are called partials */
@@ -5,15 +8,388 @@
 @import url("./_variables.css");
 /* Feel free to add as many of these imports as you need */
 
+
 body {
-  color: var(--color-primary);
-  background-color: var(--color-secondary);
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+
+    >main {
+        box-sizing: border-box;
+        min-height: 100vh;
+        margin: 0;
+        font-family: poppins, sans-serif;
+        background-image: url("../../assets/controller.png");
+        background-repeat: no-repeat;
+        background-size: fill;
+        background-position: 0% 35%;
+        padding-top: 4rem;
+    }
 }
 
-.centered {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+h1,
+h2 {
+    font-size: clamp(1rem, 1vw + 2rem, 2rem);
+    font-weight: bolder;
+    margin: 0;
 }
+
+p {
+    font-size: clamp(1rem, 2vw + 0.2rem, 1.25rem);
+}
+
+/* ______________________ HEADER ______________________ */
+
+header {
+    width: 100%;
+    background-color: #1B203D;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    height: 10em;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.header-box {
+    width: 85%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#burger {
+    display: none;
+}
+
+.logo-box {
+    width: 200px;
+}
+
+.nav-links {
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-box {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+i {
+    margin-right: 10px;
+}
+
+@media (max-width: 1035px) {
+    .hide {
+        display: none;
+    }
+
+    #burger {
+        display: block;
+    }
+
+}
+
+@media (max-width: 490px) {
+    .header-box {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+/* ______________________ INDEX ______________________ */
+
+.container-columnbox {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 2rem;
+
+}
+
+.max-size {
+    max-width: 100ch;
+}
+
+.box {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+@media (max-width: 1397px) {
+    .box {
+        max-width: 791px;
+    }
+}
+
+@media (max-width: 930px) {
+    .box {
+        max-width: 594px;
+    }
+}
+
+@media (max-width: 700px) {
+    .box {
+        max-width: 398px;
+        padding-bottom: 6rem;
+    }
+}
+
+@media (max-width: 465px) {
+    .box {
+        max-width: 200px;
+        padding-bottom: 6rem;
+    }
+}
+
+.margin-header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1190px;
+    text-align: left;
+
+}
+
+.box a img {
+    max-width: 250px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.box img:hover {
+    transform: scale(1.3, 1.3);
+    transition: .3s transform;
+}
+
+/* ______________________ ABOUT ______________________ */
+
+.about-p{
+   line-height: 35px;
+   font-size: 22px;
+   background-color: rgba(221, 221, 221, 1);
+   padding: 20px;
+   border-radius: 8px;
+}
+
+.headline-p{
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: rgba(221, 221, 221, 1);
+    padding: 20px;
+    border-radius: 8px;
+    width: fit-content;
+
+}
+
+
+/* ______________________ CONTACT ______________________ */
+
+.container-rowbox {
+    width: 85%;
+    height: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.form-p {
+    font-size: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.contact-form label {
+    margin-top: 0.5rem;
+}
+
+.input-size {
+    width: 100%;
+    max-width: 375px;
+    resize: vertical;
+}
+
+.textarea-size {
+    min-height: 120px;
+    max-height: 320px;
+}
+
+.submit-butt {
+    margin-top: 20px;
+}
+
+.boxsize-medium {
+    width: 100%;
+    max-width: 40ch;
+}
+
+@media (max-width: 600px) {
+    .container-rowbox {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-p {
+        padding-bottom: 10rem;
+    }
+}
+
+/* ______________________ PRODUCT ______________________ */
+
+.product-textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2em;
+    font-family: poppins, sans-serif;
+
+}
+
+.forgelegend {
+    width: 100%;
+    max-width: 350px;
+
+}
+
+.titled-price {
+    width: fit-content;
+    width: -moz-fit-content;
+    padding: 0.75rem 3rem;
+    background-color: rgba(188, 188, 188, 0.4);
+    border-radius: 3rem;
+    display: flex;
+    gap: 4rem;
+}
+
+.titled-price h1 {
+    font-size: clamp(1.25rem, 2vw + 0.2rem, 2rem);
+    margin: 0;
+    font-family: poppins, sans-serif;
+    font-weight: bolder;
+
+}
+
+
+
+#add-cart {
+    background-color: orange;
+    text-decoration: none;
+    color: black;
+    width: 180px;
+    padding: 0.4rem 0.4rem;
+    text-align: center;
+    border-radius: 4rem;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bottom-section {
+    margin: 0;
+    padding: 1rem;
+    background-color: rgba(188, 188, 188, 0.4);
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+@media (max-width: 720px) {
+    .change-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .purchase-box {
+        gap: 10px;
+    }
+
+    .change-flex2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .flex-change2 {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 13rem;
+
+    }
+
+    .product-textbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* ______________________ FOOTER ______________________ */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1B203D;
+    color: white;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer ul {
+    display: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 12px;
+
+}
+
